@@ -1,0 +1,71 @@
+<Stmt>
+    <Id>201703261701589650000001</Id>
+    <CreDtTm>2018-02-01 14:37:57.583310</CreDtTm>
+    <FrToDt>
+        <FrDtTm>2018-03-31</FrDtTm>
+        <ToDtTm>2018-01-01</ToDtTm>
+    </FrToDt>
+    <Bal>
+        <Tp>
+            <CdOrPrtry>
+                <Cd>OPBD</Cd>
+            </CdOrPrtry>
+        </Tp>
+        <Amt Ccy="EUR">500.00</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <Dt>
+            <Dt>2018-01-01</Dt>
+        </Dt>
+    </Bal>
+    <Bal>
+        <Tp>
+            <CdOrPrtry>
+                <Cd>CLBD</Cd>
+            </CdOrPrtry>
+        </Tp>
+        <Amt Ccy="EUR">50.00</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <Dt>
+            <Dt>2018-03-31</Dt>
+        </Dt>
+    </Bal>
+    <Ntry>
+        <NtryRef>1234567890</NtryRef>
+        <Amt Ccy="EUR">100.00</Amt>
+        <CdtDbtInd>DBIT</CdtDbtInd>
+        <Sts>BOOK</Sts>
+        <BookgDt>
+            <Dt>2018-01-15</Dt>
+        </BookgDt>
+        <ValDt>
+            <Dt>2018-01-15</Dt>
+        </ValDt>
+        <AcctSvcrRef>1234567890</AcctSvcrRef>
+    </Ntry>
+    <Ntry>
+        <NtryRef>1234567890</NtryRef>
+        <Amt Ccy="EUR">150.00</Amt>
+        <CdtDbtInd>DBIT</CdtDbtInd>
+        <Sts>BOOK</Sts>
+        <BookgDt>
+            <Dt>2018-02-01</Dt>
+        </BookgDt>
+        <ValDt>
+            <Dt>2018-02-01</Dt>
+        </ValDt>
+        <AcctSvcrRef>1234567890</AcctSvcrRef>
+    </Ntry>
+    <Ntry>
+        <NtryRef>1234567890</NtryRef>
+        <Amt Ccy="EUR">200.00</Amt>
+        <CdtDbtInd>DBIT</CdtDbtInd>
+        <Sts>BOOK</Sts>
+        <BookgDt>
+            <Dt>2018-03-30</Dt>
+        </BookgDt>
+        <ValDt>
+            <Dt>2018-03-01</Dt>
+        </ValDt>
+        <AcctSvcrRef>1234567890</AcctSvcrRef>
+    </Ntry>
+</Stmt>
